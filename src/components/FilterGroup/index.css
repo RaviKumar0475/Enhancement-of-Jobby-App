@@ -1,0 +1,24 @@
+.filter-group-container {
+}
+
+.filter-group-container h1 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.employment-type-list-container {
+  padding: 0;
+  list-style: none;
+  color: #fff;
+}
+.employment-type-list-container li {
+  margin-bottom: 5px;
+}
+
+.employment-type-list-container label,
+.employment-type-list-container input {
+  cursor: pointer;
+  margin-right: 8px;
+}

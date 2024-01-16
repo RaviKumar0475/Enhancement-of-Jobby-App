@@ -1,0 +1,98 @@
+.header-container {
+  background-color: #272727;
+  padding: 15px 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 105px;
+}
+
+.mobile-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desktop-navbar {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    padding: 25px 45px;
+    height: 105px;
+  }
+
+  .mobile-navbar {
+    display: none;
+  }
+
+  .desktop-navbar {
+    display: flex;
+  }
+}
+
+.header-logo {
+  width: 85px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-logo {
+    width: 150px;
+  }
+}
+
+.route-icons-container {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.route-icons-container li {
+  margin-left: 25px;
+}
+
+.route-icons-container button {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+}
+
+.route-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.route-items {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+}
+
+.route-items li {
+  margin-left: 25px;
+}
+
+.nav-link {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.logout-button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #4f46e5;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
